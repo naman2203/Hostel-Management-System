@@ -1,0 +1,119 @@
+<head>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+
+  <header>
+    <h1 id="title">IET DAVV</h1>
+    <h2>Let's Fight Corona Together</h2>
+  </header>
+  <div>
+    <p id="description">This form is designed to get assessment of health scenario of IET family. Students, Staff, Officers and Faculty Members.</p>
+
+  </div>
+
+  <form id="survey-form" action="#">
+    <div class="label-blocks">
+      <label id="name-label" for="name">Name</label><br />
+      <input class="fields" id="name" name="name" type="text" placeholder="Your answer" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <p>Which option describes your current roll?</p>
+      <select id="dropdown" name="roll" required>
+        <option disabled selected value>Select your roll</option>
+        <option value="student">Student</option>
+        <option value="staff">Staff</option>
+        <option value="officer">Officer</option>
+        <option value="faculty">Faculty</option>
+      </select>
+    </div><br>
+
+    <div class="label-blocks">
+      <label id="number-label" for="mobile-number">Mobile Number</label><br><small>enter ten digit number:</small><br>
+      <input id="mobile-number" name="mobile-number" type="tel" pattern="[0-9]{10}" placeholder="xxxxxxxxxx" required>
+    </div><br>
+    <div class="label-blocks">
+      <label for="number">Age</label><br>
+      <input id="number" name="age" type="number" placeholder="Age" min="10" max="99" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <label><span id="email-label" for="email">Email-Id</span></label><br />
+      <input id="email" name="email" type="email" placeholder="Your Answer" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <p>Gender</p>
+      <label for="Male">
+        <input id="Male" name="gender" type="radio" value="Male" required>
+        Male
+      </label><br>
+      <label for="female">
+        <input id="female" name="gender" type="radio" value="female">
+        Female</label><br>
+      <label for="neutral">
+        <input id="neutral" name="gender" type="radio" value="neutral">
+        Prefer not to say</label><br>
+    </div><br>
+
+    <div class="label-blocks">
+      <label for="city">City where currently living</label><br>
+      <input id="city" name="city" type="text" placeholder="Your Answer" required>
+    </div><br>
+    <div class="label-blocks">
+      <p>In which of the following category you find yourself</p>
+      <label for="fine">
+        <input type="radio" id="fine" name="option" value="fine" required>I am fine, no issue</label><br>
+
+      <label for="afraid">
+        <input type="radio" id="afraid" name="option" value="afraid">I am afraid of corona virus</label><br>
+
+      <label for="positive">
+        <input type="radio" id="positive" name="option" value="positive">I am tested covid positive</label><br>
+
+      <label for="post covid hospital negative">
+        <input type="radio" id="post covid hospital negative" name="option" value="post covid hospital negative">Post Covid: I am tested covid negative without hospitalization</label><br>
+
+      <label for="post covid not hospital negative">
+        <input type="radio" id="post covid not hospital negative" name="option" value="post covid not hospital negative">Post Covid: I am tested covid negative with hospitalization</label><br>
+
+      <label for="positive with family">
+        <input type="radio" id="positive with family" name="option" value="positive with family">I am tested covid positive along with my family member(s)</label>
+    </div><br>
+    <div class="label-blocks">
+      <p>Select according to your condition (check all that apply)</p>
+      <label>
+        <input name="prefer" type="checkbox" value="I-can-come-to-college">I am ready to come to college
+      </label><br>
+      <label>
+        <input name="prefer" type="checkbox" value="I-cannot-come-to-college">I can't come to college
+      </label><br>
+      <label>
+        <input name="prefer" type="checkbox" value="I-can-attend-online-classes">I can attend online classes
+      </label><br>
+      <label>
+        <input name="prefer" type="checkbox" value="I-cannot-attend-online-classes">I cannot attend online classes
+      </label>
+
+    </div>
+    <div class="label-blocks">
+      <p>Any comments or suggestions?</p>
+      <textarea id="comments" name="comments" placeholder="enter comments here...">
+        </textarea>
+    </div><br>
+
+    <div class="label-blocks">
+      <button class="submit" id="submit" type="submit">
+        submit
+      </button>
+    </div>
+    <br>
+
+  </form>
+
+  <footer>
+    <em>This form was created inside of Institute of Engineering and Technology DAVV.</em>
+  </footer>
+
+</body>

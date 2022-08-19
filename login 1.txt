@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>  
+<html>
+<head>
+<title>LOGIN</title>
+</head>
+<body>  
+<h1 text align="center">Login</h1> 
+<form method="post" action="show1.php">  
+
+  Enter your USN: <input type="text" name="usn">
+  
+  <input type="submit" name="submit" value="View Details"> 
+</form>
+</head>
+</html>

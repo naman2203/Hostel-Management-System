@@ -1,0 +1,86 @@
+<head>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+
+  <header>
+    <h1 id="title">NIE Hostel Registration</h1>
+  </header>
+  <div>
+    
+
+  </div>
+
+  <form id="survey-form" method="post" action="next.php">
+    <div class="label-blocks">
+      <label id="name" for="name">Name</label><br />
+      <input class="fields" id="name" name="name" type="text" placeholder="Your answer" required>
+    </div><br>
+  
+    <div class="label-blocks">
+      <label id="usn" for="usn">USN</label><br />
+      <input class="fields" id="usn" name="usn" type="text" placeholder="Your answer" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <label id="phn" for="phn">Phone Number</label><br><small>enter ten digit number:</small><br>
+      <input id="phn" name="phn" type="phn" pattern="[0-9]{10}" placeholder="xxxxxxxxxx" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <label><span id="mail" for="mail">Email-Id</span></label><br />
+      <input id="mail" name="mail" type="mail" placeholder="Your Answer" required>
+    </div><br>
+    <div class="label-blocks">
+      <label><span id="date" for="date">Date of Joining</span></label><br />
+      <input id="date" name="date" type="date" placeholder="Your Answer" required>
+    </div><br>
+
+    <div class="label-blocks">
+      <p>Year</p>
+      <label for="1st">
+        <input id="year" name="year" type="radio" value="1" >
+        1st
+      </label>
+      <label for="2nd">
+        <input id="year" name="year" type="radio" value="2">
+        2nd</label>
+      <label for="3rd">
+        <input id="year" name="year" type="radio" value="3">
+        3rd</label>
+      <label for="4th">
+        <input id="year" name="year" type="radio" value="4">
+        4th</label>
+    </div><br>
+   
+ <div class="label-blocks">
+      <p>Intern?</p>
+      <label for="yes">
+        <input id="state" name="state" type="radio" value="isintern" >
+        Yes
+      </label>
+      <label for="no">
+        <input id="state"  name="state" type="radio" value="notintern" checked>
+        no</label>
+      
+  </div><br>
+
+   <div class="label-blocks">
+      <p>Food</p>
+      <label for="yes">
+        <input id="food" name="food" type="radio" value="take" checked>
+        Yes
+      </label>
+      <label for="no">
+        <input id="food"  name="food" type="radio" value="not" >
+        no</label>
+      
+  </div><br>
+    
+  </form>
+
+  <footer>
+    <em>This form was created inside of National Institute of Engineering NIE.</em>
+  </footer>
+
+</body>

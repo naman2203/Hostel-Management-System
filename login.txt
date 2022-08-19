@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="loginstyle.css"/>
+</head>
+<body>
+<div class="login">
+  <div class="form">
+    <form class="login-form" method="post" action="show1.php">
+      <span class="material-icons">lock</span>
+      <input type="text" placeholder="usn" />
+      
+      <button>view details</button>
+    </form>  
+  </div>
+</div>
+</body>
+</html>
